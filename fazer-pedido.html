@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Local Storage Testes</title>
+	<link rel="stylesheet" type="text/css" href="css/tabela.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/fazer-pedido.css" />
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	
+
+</head>
+	<body onload="inicializar(); iniMenu();">
+	
+		<div id="regAlimento"> 
+		<img id="icon-menu"  src="icones-funcionais/menu.png">
+		<p style="margin-top: 23px;">Fazer pedido </p>
+		
+			<div id="horario">
+			</div>
+
+	</div>
+
+	<nav id="menu">
+		<ul>
+			<li><a href="#" ><img id="icone-menu" src="icones-funcionais/menu.png"></a></li>
+					<li><a href="fazer-pedido.html">Fazer pedido</a></li>
+			<li><a href="pedidos-clientes.html">Pedidos dos clientes</a></li>
+			<li><a href="treino_local_storage.html">Registrar/Excluir comida</a></li></ul>
+	</nav>
+
+		<br><br><br><br><br>
+		
+		<h3 style="text-align: center;"> Adicione um item abaixo para fazer um pedido </h3>
+		
+		
+		<div style="width: 100%; text-align: center;">
+			<form class="regAlimentos">
+				<input class="" id="nomeCliente" name="nomeCliente" type="text" placeholder="Nome do cliente"/>
+			</form>
+		</div>
+	
+		
+	<div style="overflow: auto; height: 300px; width: 60%; margin-left: auto; margin-right: auto;  border-radius: 8px; ">
+		<table class="tabela" id="pedidoTable"></table> 
+	</div>
+		
+<div style="text-align: center;">
+	 	<p id="divTotal"></p>		
+	 	<p id="troco"></p>	
+	<div style="width: 100%; text-align: center;">
+		<form class="regAlimentos">
+<input class="" id="dinheiroCliente" name="dinheiroCliente" type="text" placeholder="Dinheiro dado pelo cliente">
+		</form>
+	</div>
+</div>
+			
+		<div style="text-align: center;">
+			<div name="cadastrarComida" class="regAlimentos">
+				<button class="btn-cadastro" id="btnRegPedido">Efetuar Pedido</button> 
+			</div>
+		</div>
+		
+		
+	<div class="filtro">
+		Mostrar-me: <select id="filtro">
+			<option value="tudo" selected>Tudo</option>
+			<option value="comida" >Comida </option>
+			<option value="refrigerante"> Refrigerante </option>
+			<option value="cerveja"> Cerveja </option>
+			<option value="agua"> Água </option>
+			<option value="porcao"> Porção </option>
+			<option value="sorvete"> Sorvete </option>
+		</select>
+	</div>
+		
+
+
+
+		
+	<div style="overflow: auto; height: 400px; width: 100%;">
+	<table class="tabela" id="exibirComidas"></table> 	
+	</div>
+	
+
+		
+	<script type="text/javascript" src="horario.js"></script>
+	<script type="text/javascript" src="fazer-pedido.js"></script>
+<!-- <script type="text/javascript" src="color_config.js"></script> -->
+	<script type="text/javascript" src="menu.js"></script>
+	
+	</body>
+	</html>

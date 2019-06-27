@@ -1,0 +1,52 @@
+nav{
+	position: absolute;
+	background-color: #111;
+	width: 280px;
+	height: 500px;
+	text-align: center;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 35px;
+	
+
+}
+
+ul{
+	list-style: none;
+	display: inline-block;
+	padding: 0px;
+	width: 100%;
+}
+li{
+	padding: 20px 18px;
+}
+li:hover{
+	transition-duration: 0.4;
+	background-color: #444;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+#icon-menu{
+width: 25px;
+position: absolute;
+margin-top: 30px;
+margin-left: -47%;
+	cursor: pointer;
+}
+
+#icone-menu{
+	width: 25px;
+	margin-left: 80%;
+	cursor: pointer;
+}
+
+
+#horario{
+	width: 10px;
+	font-size: 15px;
+	margin-top: -60px;
+	margin-left: auto;
+	margin-right: 80px;
+}

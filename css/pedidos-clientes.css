@@ -1,0 +1,14 @@
+.comidasShow{
+	
+	margin-left: auto; margin-right: auto;
+	
+	text-align: center; position: absolute;
+	
+	background-color: #01916a;
+	
+	width: 380px; height: auto;
+	
+	margin-top: -450px;
+	
+	border-radius: 20px;
+}

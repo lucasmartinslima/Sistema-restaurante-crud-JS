@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+	<meta charset="utf-8"/>
+	<title>Local Storage Testes</title>
+	<link rel="stylesheet" type="text/css" href="css/tabela.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+</head>
+<body onload="Inicializar(); iniMenu();" id="body">
+
+
+	<div id="regAlimento"> 
+		<img id="icon-menu"  src="icones-funcionais/menu.png">
+		<p style="margin-top: 23px;">Registrar alimento </p>
+		
+			<div id="horario">
+			</div>
+
+		
+	</div>
+
+	<nav id="menu">
+		<ul>
+			<li><a href="#" ><img id="icone-menu" src="icones-funcionais/menu.png"></a></li>
+			<li><a href="fazer-pedido.html">Fazer pedido</a></li>
+			<li><a href="pedidos-clientes.html">Pedidos dos clientes</a></li>
+		<li><a href="treino_local_storage.html">Registrar/Excluir comida</a></li>	</ul>
+	</nav>
+
+	
+	
+	<div id="itemAdicionado"></div>
+	<br><br><br><br><br>
+	
+	<div style="width: 100%; text-align: center;">
+		<form name="cadastrarComida" class="regAlimentos">
+			<input id="nomeComida" type="text" name="comida" placeholder="Nome da Comida">
+			<br>
+			<input  id="precoComida" type="text" name="preco" placeholder="Preço (Ex: 2.99)">
+			<br>
+			<select id="tipoComida">
+				<option value="comida" selected>Comida </option>
+				<option value="refrigerante"> Refrigerante </option>
+				<option value="cerveja"> Cerveja </option>
+				<option value="agua"> Água </option>
+				<option value="porcao"> Porção </option>
+				<option value="sorvete"> Sorvete </option>
+			</select>
+			<br>
+			<button class="btn-cadastro" id="btnCadastrar">Cadastrar alimento</button> 
+		</form>
+	</div>
+
+	<div class="filtro">
+		Mostrar-me: <select id="filtro">
+			<option value="tudo" selected>Tudo</option>
+			<option value="comida" >Comida </option>
+			<option value="refrigerante"> Refrigerante </option>
+			<option value="cerveja"> Cerveja </option>
+			<option value="agua"> Água </option>
+			<option value="porcao"> Porção </option>
+			<option value="sorvete"> Sorvete </option>
+		</select>
+	</div>
+	
+	
+	
+	<div style="overflow: auto; height: 300px;">
+		<table class="tabela" id="exibirComidas"></table> 
+	</div>
+
+	<script type="text/javascript" src="horario.js"></script>
+	<script type="text/javascript" src="storage.js"></script>
+	<script type="text/javascript" src="color_config.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+</body>
+</html>

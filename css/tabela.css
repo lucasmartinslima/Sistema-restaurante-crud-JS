@@ -1,0 +1,182 @@
+body, html{
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+    padding: 0px;
+	background-color: #222;
+	color: white;
+}
+
+
+
+/*Filtro de busca */
+.filtro{
+	background-color: #444;
+	color: white;
+	
+	outline: none;
+    border: none;
+}
+.filtro option{
+	background-color: #444;
+	color: white;
+	
+	outline: none;
+    border: none;
+}
+
+/* PAGINA DE REGISTRAR ALIMENTO*/
+#regAlimento{
+	background-color: #111;
+	width: 100%;
+	height: 80px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	position: absolute;
+}
+
+
+/*Tabela de alimentos*/
+
+#cabecalhoTable{
+	background-color:  #222;
+}
+
+.tabela{
+    width: 100%;
+    text-align: center;
+    background-color: #5e5e5e;
+    color: white;
+
+	
+}
+.tabela th{
+    color: white;
+    background-color: #515151;
+	border-bottom: 2px solid #444;
+}
+.tabela tr:hover{
+    transition-duration: 0.5s;
+    background-color:#444;
+}
+
+.icone-comida{
+    width: 60px;
+}
+
+/* Registro de alimentos */
+.regAlimentos{
+    text-align: center;
+    display: inline;
+}
+.regAlimentos input{
+	background-color: #ededed;
+	color: black;
+
+    margin-bottom: 10px;
+	margin-top: 10px;
+	
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    outline: none;
+	border: none;
+}
+.regAlimentos select{
+	background-color: #ededed;
+	color: black;
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.regAlimentos select option{
+	background-color: #ededed;
+	color: black;
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.regAlimentos button{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+    font-size: 15px;
+	color: white;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+	
+	border-radius: 4px;    
+}
+.regAlimentos button:hover{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+	border-radius: 7px;
+    font-size: 15px;
+	color: white;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color:darkorchid;
+	
+	transition-duration: 1s;
+	cursor: pointer;  
+}
+.regAlimentos input:focus{
+border: none;
+outline: none;
+}
+
+.regAlimentos input:active{
+border: none;
+outline: none;
+}
+
+
+
+/*ICONES FUNCIONAIS Ex: lixeira, editar, adicionar*/
+.icone-funcional{
+    width: 35px;
+}
+.icone-funcional:hover{
+    cursor: pointer;
+}
+
+/* pop up para falar que o aliamento foi adicionando*/
+.popup{
+	position: fixed;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 320px;
+	height: 70px;
+	margin-top: 10%;
+	border-radius: 12px;
+	background-color: deeppink;
+	
+}
+
+.noShow{
+	visibility: hidden;
+}

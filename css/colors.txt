@@ -1,0 +1,33 @@
+background-color
+
+body -> #222 cor de fundo principal 
+
+tip- comida- preco - excluir
+.tabela th { 
+    color: white; 					cor do texto
+    background-color: #515151       cor de fundo do tip- comida- preco - excluir
+    border-bottom: 2px solid #444;  cor da borda
+   } 
+
+
+comidas e refrigerantes na tabela
+.tabela {
+    width: 100%;
+    text-align: center;
+    background-color: #5e5e5e;             OK
+    color: white;                         
+}
+
+.tabela tr:hover{
+    transition-duration: 0.5s;            OK
+    background-color:#444;
+}
+
+
+filtragem por tipo
+.filtro {
+    background-color: #444;
+    color: white;
+    outline: none;
+    border: none;
+}

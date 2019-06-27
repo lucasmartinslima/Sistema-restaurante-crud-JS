@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Local Storage Testes</title>
+	<link rel="stylesheet" type="text/css" href="css/tabela.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/fazer-pedido.css" />
+	 <link rel="stylesheet" type="text/css" href="css/pedidos-clientes.css" />
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+	
+	<body onload="iniMenu(); showPedidos(); esconderAlimentos();">
+		<div id="regAlimento"> 
+		<img id="icon-menu"  src="icones-funcionais/menu.png">
+		<p style="margin-top: 23px;">Pedidos dos clientes </p>
+			<div id="horario"></div>
+	</div>
+
+	<nav id="menu">
+		<ul>
+			<li><a href="#" ><img id="icone-menu" src="icones-funcionais/menu.png"></a></li>
+			<li><a href="fazer-pedido.html">Fazer pedido</a></li>
+			<li><a href="pedidos-clientes.html">Pedidos dos clientes</a></li>
+			<li><a href="treino_local_storage.html">Registrar/Excluir comida</a></li>
+
+		</ul>
+	</nav>
+
+		<br><br><br><br><br>
+		
+	<div style="overflow: auto; height: 400px; width: 100%;">
+	<table class="tabela" id="pedidos"></table> 	
+	</div>
+	
+	
+	<div id="Alimentos" style="overflow: auto; height: 400px; width: 100%;">
+		<div class="comidasShow" id="comidasPedidas"> 
+			<p>Alimentos pedidos</p>
+			<div id="divAlimentos">
+			</div>
+		</div>	
+	</div>	
+		
+
+	<script type="text/javascript" src="horario.js"></script>
+	<script type="text/javascript" src="pedidos-feitos.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+	
+	</body>
+	</html>
