@@ -1,7 +1,7 @@
 # Sistema-restaurante-crud-JS
 Um sistema que registra/exclui alimentos e registra pedidos. 
 
-É apenas um teste e treino de javascript(puro)/html/css e arquivos Json. Foi usado o localstorage pra salvar todos os dados. A intenção é o usuário usar o sistema sem precisar de internet.
+É apenas um teste e treino de javascript(puro)/html/css e arquivos Json. Foi usado o localstorage pra salvar todos os dados. A intenção é que o usuário possa usar o sistema sem precisar de internet.
 
 
 ![1](https://user-images.githubusercontent.com/42473978/60337626-e72ba300-9979-11e9-8a01-3d469d9cedfa.png)
